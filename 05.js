@@ -5,7 +5,7 @@
 //Load I/O module
 var fs = require("fs");
 
-//Regular expression that checks is string ends with particular string
+//Regular expression that checks whether string ends with particular string
 var regexRule = new RegExp("." + process.argv[3] + "$");
 
 //Read file asynchronously
