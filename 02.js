@@ -1,5 +1,13 @@
 /**
  * @author rafal
+ * 
+ * LEARN YOU THE NODE.JS FOR MUCH WIN!
+ * ─────────────────────────────────────
+ * BABY STEPS
+ * Exercise 2 of 13
+ * 
+ * Write a program that accepts one or more numbers as command-line arguments and prints the sum of those numbers to the console (stdout).
+ * -------------------------------------------------------------------------------
  */
 
 //Storing passed parameters (without the command and path)
