@@ -14,7 +14,7 @@
 var httpModule = require("http");
 
 var server = httpModule.createServer(function (request, response) {
-  	if(request.method === "POST"){
+    if (request.method === "POST") {
 		var postBody = "";
 		
 		response.writeHead(200, {'Content-Type': 'text/plain' });
@@ -24,9 +24,9 @@ var server = httpModule.createServer(function (request, response) {
         });
         
         request.on('end', function () {
-            response.end(postBody.toUpperCase());  
-        });        
-  	}  	
+            response.end(postBody.toUpperCase());
+        });
+    }
 });
 
 server.listen(parseInt(process.argv[2]));
